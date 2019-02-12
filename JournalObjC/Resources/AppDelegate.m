@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "JZEntryController.h"
 
 @interface AppDelegate ()
 

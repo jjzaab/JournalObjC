@@ -8,24 +8,33 @@
 
 /* Begin PBXBuildFile section */
 		3F5BD60222120CD0001F78DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F5BD60122120CD0001F78DB /* AppDelegate.m */; };
-		3F5BD60522120CD0001F78DB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F5BD60422120CD0001F78DB /* ViewController.m */; };
 		3F5BD60822120CD0001F78DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F5BD60622120CD0001F78DB /* Main.storyboard */; };
 		3F5BD60A22120CD1001F78DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F5BD60922120CD1001F78DB /* Assets.xcassets */; };
 		3F5BD60D22120CD1001F78DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F5BD60B22120CD1001F78DB /* LaunchScreen.storyboard */; };
 		3F5BD61022120CD1001F78DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F5BD60F22120CD1001F78DB /* main.m */; };
+		3F5BD61822120D2F001F78DB /* JZEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F5BD61722120D2F001F78DB /* JZEntry.m */; };
+		3F5BD61E22120E63001F78DB /* JZEntryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F5BD61D22120E63001F78DB /* JZEntryController.m */; };
+		3F5BD623221211A0001F78DB /* JZEntryListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F5BD622221211A0001F78DB /* JZEntryListTableViewController.m */; };
+		3F5BD62922121433001F78DB /* JZEntryDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F5BD62822121433001F78DB /* JZEntryDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3F5BD5FD22120CD0001F78DB /* JournalObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JournalObjC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F5BD60022120CD0001F78DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3F5BD60122120CD0001F78DB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3F5BD60322120CD0001F78DB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3F5BD60422120CD0001F78DB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3F5BD60722120CD0001F78DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3F5BD60922120CD1001F78DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F5BD60C22120CD1001F78DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F5BD60E22120CD1001F78DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F5BD60F22120CD1001F78DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3F5BD61622120D2F001F78DB /* JZEntry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZEntry.h; sourceTree = "<group>"; };
+		3F5BD61722120D2F001F78DB /* JZEntry.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZEntry.m; sourceTree = "<group>"; };
+		3F5BD61C22120E63001F78DB /* JZEntryController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZEntryController.h; sourceTree = "<group>"; };
+		3F5BD61D22120E63001F78DB /* JZEntryController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZEntryController.m; sourceTree = "<group>"; };
+		3F5BD621221211A0001F78DB /* JZEntryListTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZEntryListTableViewController.h; sourceTree = "<group>"; };
+		3F5BD622221211A0001F78DB /* JZEntryListTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZEntryListTableViewController.m; sourceTree = "<group>"; };
+		3F5BD62722121433001F78DB /* JZEntryDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZEntryDetailViewController.h; sourceTree = "<group>"; };
+		3F5BD62822121433001F78DB /* JZEntryDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZEntryDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,17 +67,63 @@
 		3F5BD5FF22120CD0001F78DB /* JournalObjC */ = {
 			isa = PBXGroup;
 			children = (
+				3F5BD61B22120D4E001F78DB /* Resources */,
+				3F5BD61922120D35001F78DB /* Model */,
+				3F5BD62022120E74001F78DB /* Controllers */,
+			);
+			path = JournalObjC;
+			sourceTree = "<group>";
+		};
+		3F5BD61922120D35001F78DB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3F5BD61622120D2F001F78DB /* JZEntry.h */,
+				3F5BD61722120D2F001F78DB /* JZEntry.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3F5BD61A22120D3D001F78DB /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3F5BD621221211A0001F78DB /* JZEntryListTableViewController.h */,
+				3F5BD622221211A0001F78DB /* JZEntryListTableViewController.m */,
+				3F5BD62722121433001F78DB /* JZEntryDetailViewController.h */,
+				3F5BD62822121433001F78DB /* JZEntryDetailViewController.m */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		3F5BD61B22120D4E001F78DB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				3F5BD60022120CD0001F78DB /* AppDelegate.h */,
 				3F5BD60122120CD0001F78DB /* AppDelegate.m */,
-				3F5BD60322120CD0001F78DB /* ViewController.h */,
-				3F5BD60422120CD0001F78DB /* ViewController.m */,
 				3F5BD60622120CD0001F78DB /* Main.storyboard */,
 				3F5BD60922120CD1001F78DB /* Assets.xcassets */,
 				3F5BD60B22120CD1001F78DB /* LaunchScreen.storyboard */,
 				3F5BD60E22120CD1001F78DB /* Info.plist */,
 				3F5BD60F22120CD1001F78DB /* main.m */,
 			);
-			path = JournalObjC;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3F5BD61F22120E6A001F78DB /* Model Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3F5BD61C22120E63001F78DB /* JZEntryController.h */,
+				3F5BD61D22120E63001F78DB /* JZEntryController.m */,
+			);
+			path = "Model Controllers";
+			sourceTree = "<group>";
+		};
+		3F5BD62022120E74001F78DB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3F5BD61A22120D3D001F78DB /* View Controllers */,
+				3F5BD61F22120E6A001F78DB /* Model Controllers */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,8 +196,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F5BD60522120CD0001F78DB /* ViewController.m in Sources */,
+				3F5BD623221211A0001F78DB /* JZEntryListTableViewController.m in Sources */,
 				3F5BD61022120CD1001F78DB /* main.m in Sources */,
+				3F5BD62922121433001F78DB /* JZEntryDetailViewController.m in Sources */,
+				3F5BD61E22120E63001F78DB /* JZEntryController.m in Sources */,
+				3F5BD61822120D2F001F78DB /* JZEntry.m in Sources */,
 				3F5BD60222120CD0001F78DB /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,7 +344,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = JournalObjC/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/JournalObjC/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,7 +360,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = JournalObjC/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/JournalObjC/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

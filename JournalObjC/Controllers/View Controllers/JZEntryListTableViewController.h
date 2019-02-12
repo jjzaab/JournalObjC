@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  JZEntryListTableViewController.h
 //  JournalObjC
 //
 //  Created by XMS_JZhan on 2/11/19.
@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+NS_ASSUME_NONNULL_BEGIN
 
+@interface JZEntryListTableViewController : UITableViewController
 
 @end
 
+NS_ASSUME_NONNULL_END
